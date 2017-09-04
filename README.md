@@ -18,7 +18,9 @@ application of the method, a penstock design is made for a river profile.
 
 The algorithm can be executed from *gui_penstock_optimizer.m*.
 
-* The program reads a N-discretized river profile from an excel file, where column 1 and 2 are, respectively, the x and y coordinates of the N points of the discretization. An example river profile, called *river_example.xlsx*, is given.
+1. The program reads a N-discretized river profile from an excel file, where column 1 and 2 are, respectively, the x and y coordinates of the N points of the discretization.
+
+⋅⋅* An example river profile, called *river_example.xlsx*, is given.
 
 * 
 
