@@ -1,4 +1,4 @@
-![Loyola Logo](https://github.com/atapiaco/PenstockOptimizer/files/blob/master/logo.png)
+![Loyola Logo](https://github.com/atapiaco/PenstockOptimizer/blob/master/files/logo.png)
 
 # Integer programming to optimize penstock layout for generic river profiles
 ---
