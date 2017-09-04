@@ -18,8 +18,16 @@ application of the method, a penstock design is made for a river profile.
 
 The algorithm can be executed from *gui_penstock_optimizer.m*.
 
-1. The program reads a N-discretized river profile from an excel file, where column 1 and 2 are, respectively, the x and y coordinates of the N points of the discretization.
+1. Using the button *IMPORT PROFILE*, the program reads a N-discretized river profile from an excel file, where column 1 and 2 are, respectively, the x and y coordinates of the N points of the discretization. After the importation, the river profile is plotted.
 
-   An example river profile, called *river_example.xlsx*, is given.
+   * An example river profile, called *river_example.xlsx*, is given.
+   
+2. The problem data is introduced in the boxes.
+
+   * Example values are preloaded.
+   
+3. Using the button *SOLVE* executes the solver. The linear system is built using the algorithm described in the paper, and a *branch and bound* routine is used to find the optimal solution, which is written in the *solution* box.
+
+4. An *excel file* report can be easily generated with the button *GENERATE REPORT*. This report is compound of 2 sheets. The first one consists on a resume with the main output values. The second sheet includes the complete solution of the problem, listing all the nodes of the penstock.
 
 
